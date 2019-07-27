@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    function themnguoidung();
+    console.log("themnguoidung")
+})
+$(document).ready(function() {
+
     var mangnguoidung = [];
     var Nguoidungservices = new nguoidungservices();
 
