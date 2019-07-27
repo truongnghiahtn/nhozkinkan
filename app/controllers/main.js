@@ -3,6 +3,7 @@ $(document).ready(function() {
     console.log("themnguoidung")
 })
 $(document).ready(function() {
+
     var mangnguoidung = [];
     var Nguoidungservices = new nguoidungservices();
 
