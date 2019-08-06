@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+.header{
+    padding: 0;
+    .navbar{
+        background-color: $color-white-1;
+        .navbar-brand{
+            padding: 0;
+            img{
+                width: 50%;
+                display: block;
+                margin: auto;
+            }
+        }
+        .navbar-collapse{
+            .form-inline{
+                .search{
+                    background: $color-blue-0;
+                    color: $color-white-0;
+                }
+            }
+        }
+    }
+}
+.items{
+    padding: $pd-3;
+    background: $color-white-1;
+    .card{
+        .card-body{
+            .card-title{
+                color: $color-blue-0;
+            }
+            .button{
+                background: $color-blue-0;
+                color: $color-white-0;
+                width: 100%;
+                padding: $pd-2 0;
+            }
+        }
+    }
+}
+#myModal{
+    .modal-button{
+        background: $color-blue-0;
+        color: $color-white-0;
+    }
+}

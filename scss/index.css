@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif; }
+
+.header {
+  padding: 0; }
+  .header .navbar {
+    background-color: #f5f1f0; }
+    .header .navbar .navbar-brand {
+      padding: 0; }
+      .header .navbar .navbar-brand img {
+        width: 50%;
+        display: block;
+        margin: auto; }
+    .header .navbar .navbar-collapse .form-inline .search {
+      background: #178b82;
+      color: #fff; }
+
+.items {
+  padding: 20px;
+  background: #f5f1f0; }
+  .items .card .card-body .card-title {
+    color: #178b82; }
+  .items .card .card-body .button {
+    background: #178b82;
+    color: #fff;
+    width: 100%;
+    padding: 15px 0; }
+
+#myModal .modal-button {
+  background: #178b82;
+  color: #fff; }
+
+/*# sourceMappingURL=index.css.map */
