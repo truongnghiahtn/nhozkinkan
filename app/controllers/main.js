@@ -73,8 +73,9 @@ $(document).ready(function() {
         var taikhoan = $(this).data("id");
         Nguoidungservices.Xoanguoidung(taikhoan)
 
-        .done(function() {
+        .done(function(result) {
                 location.reload()
+                console.log(result)
             })
             .fail(function(err) {
                 console.log(err);
